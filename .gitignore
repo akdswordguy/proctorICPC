@@ -137,3 +137,17 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignore openproctor and server dependencies and build output
+openproctor/node_modules/
+openproctor/dist/
+openproctor/.next/
+openproctor/.env
+openproctor/.env.*
+openproctor/uploads/
+openproctor/package-lock.json
+openproctor/pnpm-lock.yaml
+server/node_modules/
+server/uploads/
+server/package-lock.json
+server/pnpm-lock.yaml
